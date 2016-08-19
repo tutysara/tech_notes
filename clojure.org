@@ -1,0 +1,7 @@
+** core.async
+   * vending machine example
+   * when x happens to y
+   * go blocks are executed in a separate thread
+   * (>!! chan-name "value") -- this will block until the message is taken by the consumer
+   * use ! inside go block and !! outside go block
+   * thread pool size = number of cores + 2

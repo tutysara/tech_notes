@@ -1,6 +1,7 @@
 ** projectile
   
 ** spacemacs
+*** hooks
 - add hook to prog-mode and text-mode, executing functions on hooks
   ```
   (add-hook 'org-mode-hook (lambda () (setq fill-column 72)))
@@ -8,7 +9,12 @@
   ```
   (add-hook 'prog-mode-hook #'auto-fill-mode)
   (add-hook 'text-mode-hook #'auto-fill-mode)
+  (add-hook 'prog-mode-hook #'linenum-mode)
   ```
   org mode
   ```(add-hook 'org-mode-hook #'auto-fill-mode)```
   These lines should be placed in dotspacemacs/user-config
+*** expand region
+M-m V, opposite M-m Shift-V
+
+** 
