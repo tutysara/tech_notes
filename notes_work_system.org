@@ -1,0 +1,7 @@
+** Virtualbox setup for full screen
+*** install guest additions
+``` bash
+sudo apt-get install virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11
+```
+- see this link [[http://askubuntu.com/questions/104440/how-do-you-resize-the-standard-ubuntu-desktop-inside-of-virtualbox][http://askubuntu.com/questions/104440/how-do-you-resize-the-standard-ubuntu-desktop-inside-of-virtualbox]]
+- also we should have more than 17MB ram for this to work
