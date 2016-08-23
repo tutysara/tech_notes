@@ -16,5 +16,23 @@
   These lines should be placed in dotspacemacs/user-config
 *** expand region
 M-m V, opposite M-m Shift-V
+*** projectile setting ag as searcher
+Well first you want to install ag (silver seacher on your system). 
+then set projectile-generic-command and projectile-svn-command to something like "ag . -l".
+I like it because it's fast/smart (it can look into your gitignore to ignore even more files for example)
+*** shortcut
+**** screen top/center/down - zt, z., zb
+**** universal argument, C-u = scroll down, universal arg = SPC - u 
+**** fd = ESC 
+**** zooming micro state -- SPC z x 
+**** undo -- C-R
+**** scrolling
+C-E, C-Y | C-D, C-U| C-F, C-B
+**** jump to last edit location -- '. (single quore + dot)
+**** open a new buffer -- SPC b N
 
-** 
+*** check on remapping esc key
+see https://github.com/syl20bnr/spacemacs/issues/2292, geo7's answer
+TLDR - use keychord
+aanant paatra name in the issue
+*** 

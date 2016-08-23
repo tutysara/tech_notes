@@ -27,3 +27,8 @@ CLOSED: [2016-08-18 Thu 22:09]
 * outing plans
 ** trekking in cheasque park
 ** 
+* unorganised
+** talk to mangaraj for niagara
+** DONE mammu's insurancepain
+CLOSED: [2016-08-22 Mon 21:51]
+* sell the old mobile
